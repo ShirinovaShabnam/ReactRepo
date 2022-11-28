@@ -1,0 +1,16 @@
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.diceDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
