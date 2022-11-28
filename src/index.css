@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.hospital-register {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: inline;
+}
+
+.resReseption {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+input {
+  background: bisque;
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#patientGender {
+  background: bisque;
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#symptom {
+  background: bisque;
+  margin-bottom: 10px;
+}
+
+.submit {
+  padding: 10px;
+  background: tan;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.id {
+  display: none;
+  width: 300px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.header {
+  padding: 10px 20px;
+  display: flex;
+  text-align: center;
+  height: 20%;
+  background: bisque;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: space-between;
+}
+
+.idSerial {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main {
+  font-size: 12px;
+  align-items: center;
+  background: silver;
+  display: flex;
+  height: 140px;
+}
+
+.avatar {
+  width: 40%;
+}
+.avatar img {
+  width: 100px;
+}
+
+.content {
+  width: 60%;
+}
+
+.idName {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.idGender {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.idAge {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-sym {
+  width: 70%;
+  position: relative;
+  left: -50px;
+}
